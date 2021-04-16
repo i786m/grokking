@@ -14,7 +14,7 @@ function findCycleLength(head){
         slow = slow.next //tortoise
         if(slow==fast) return calculateCycleLength(slow)
     }
-    return false
+    return 0
 }
 
 
