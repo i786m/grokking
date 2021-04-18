@@ -14,3 +14,5 @@ function findMiddleOfLinkedList(head){
     }
     return slow
 }
+
+
