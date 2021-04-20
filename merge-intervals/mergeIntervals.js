@@ -35,3 +35,5 @@ function merge(intervals){
     mergedIntervals.push(new Interval(start,end))
     return mergedIntervals
 }
+
+//O(N * logN)|O(N)
