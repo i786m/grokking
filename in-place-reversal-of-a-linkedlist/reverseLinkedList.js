@@ -18,7 +18,7 @@ function reverse(head){
         previous = null
 
     while(current !== null){
-        next = current.next // temp store for next node
+        let next = current.next // temp store for next node
         current.next = previous // reverse current node
         previous = current // before we move to next node, point to previous node
         current = next // move on to next node
