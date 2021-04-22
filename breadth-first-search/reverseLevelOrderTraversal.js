@@ -27,3 +27,5 @@ function traverse(root){
     }
     return result
 }
+
+//O(N)|O(N)
