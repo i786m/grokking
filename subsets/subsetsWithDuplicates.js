@@ -19,3 +19,5 @@ function find_subsets(nums){
     }
     return subsets
 }
+
+//O(N*2**N)|O(N*2**N) 
