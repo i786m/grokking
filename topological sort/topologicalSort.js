@@ -38,3 +38,6 @@ function topological_sort(vertices, edges){
 
     return sortedOrder
 }
+
+
+//time|space O(V+E)|O(V+E)
