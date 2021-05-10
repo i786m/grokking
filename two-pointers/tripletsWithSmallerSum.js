@@ -23,3 +23,5 @@ function searchPair(arr, targetSum , first){
     }
     return count
 }
+
+//O(N**2)|O(N)
