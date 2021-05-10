@@ -18,9 +18,9 @@ function tripletSumCloseToTarget(arr, targetSum){
             }
 
             if (targetDiff > 0){
-                left += 1
+                left += 1 // need a triplet with a bigger sum
             }else{
-                right -= 1
+                right -= 1 // need a sum with a smaller sum
             }
         }
     }
