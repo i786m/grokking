@@ -26,3 +26,5 @@ function tripletSumCloseToTarget(arr, targetSum){
     }
     return targetSum - smallestDiff
 }
+
+// time/space O(N**2)| O(N)
