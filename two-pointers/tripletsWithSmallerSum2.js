@@ -25,4 +25,4 @@ function searchPair(arr, targetSum , first, triplets){
     return count
 }
 
-//O(N**2)|O(N)
+//O(N**3)|O(N)
