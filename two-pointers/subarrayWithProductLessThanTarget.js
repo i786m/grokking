@@ -19,3 +19,5 @@ function findSubarray(arr, target){
     }
     return res
 }
+
+//O(N**3)|O(N)
