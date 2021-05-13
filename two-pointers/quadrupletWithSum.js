@@ -39,3 +39,5 @@ function searchPairs(arr,targetSum,first,second,quads){
         }
     }
 }
+
+// O(N**3)|O(N)
