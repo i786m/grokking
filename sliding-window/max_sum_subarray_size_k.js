@@ -10,7 +10,7 @@ function max_sum_subarray_size_k(){
                 winStart++
             }
         }
-        return result
+        return maxSum
     }
 
 
