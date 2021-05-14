@@ -39,6 +39,8 @@ function backspace_compare(str1, str2) {
     return index;
   }
   
+
+  //O(M+N)|O(1)
   
   console.log(backspace_compare('xy#z', 'xzz#'));
   console.log(backspace_compare('xy#z', 'xyz#'));
