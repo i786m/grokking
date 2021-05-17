@@ -29,3 +29,5 @@ function shortestWindowSort(arr){
 
     return high - low + 1
 }
+
+//O(N)|O(1)
