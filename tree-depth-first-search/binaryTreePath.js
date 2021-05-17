@@ -1,3 +1,5 @@
+const Deque = require('./collections/deque')//collectionsjs.com
+
 class TreeNode{
     constructor(val ,left=null , right = null){
         this.val = val
