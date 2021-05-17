@@ -36,4 +36,4 @@ function findPathsRecursive(currentNode, sum, currentPath, allPaths){
     currentPath.pop()
 }
 //time|space
-//O(N**2)|O(N)
+//O(N logN)|O(N)
