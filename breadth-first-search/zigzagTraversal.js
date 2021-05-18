@@ -1,3 +1,5 @@
+//Given a binary tree, populate an array to represent its zigzag level order traversal. You should populate the values of all nodes of the first level from left to right, then right to left for the next level and keep alternating in the same manner for the following levels.
+
 const Deque = require('./collections/deque') // collectionsjs.com
 
 class TreeNode{
@@ -26,7 +28,8 @@ function traverse(root){
             //add node to current lvl based on traverse direction
             leftToRight? currentLevel.push(currentNode.val) 
                         :currentLevel.unshift(currentNode.val)
-
+            
+            //insert children of current node to the q
             if(currentNode.left !== null){
                 q.push(currentNode.left)
             }
